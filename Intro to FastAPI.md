@@ -6,7 +6,7 @@ Getting started with FastAPI
 2. Ensure that pip is installed by running the following command:
       pip --version
 
-3. Now install the following packages:
+3. Now install the following packages using the annotated commands:
       - fastapi [ pip install fastapi ]
       - uvicorn [ pip install uvicorn ] 
       
