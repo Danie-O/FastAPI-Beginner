@@ -2,7 +2,7 @@
 
 Welcome to my first API! This API provides a way to manage a collection of students, allowing you to create, view, update, and delete student records.
 
-## **Getting Started**
+## Getting Started
 To get the API up and running, follow these steps:
 
 1. Clone the repository to your local machine: 
@@ -28,7 +28,7 @@ uvicorn main:app --reload
 The app should now be running at "http://localhost:8000".
 
 
-## **Accessing the API **
+## Accessing the API 
 To view and interact with the API, you can use the OpenAPI documentation page. To access this page, visit "http://localhost:8000/docs" in your web browser.
 
 On the documentation page, you will see a list of available endpoints and their parameters. You can use the "Try it out" buttons to send requests to the API and see the responses.
