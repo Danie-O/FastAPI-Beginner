@@ -81,6 +81,18 @@ def get_student(student_id: int = Path(None, description="The ID of the student 
 # Using Query parameter
 @app.get("/get-by-name")
 def get_student(*, name: Optional[str] = None, test: int):
+    """
+    A route that returns a student with the given name.
+    This function searches through a dictionary of students and returns the student with the matching name. If no student is found, a dictionary with the message "Not found" is returned.
+    
+    Args:
+        name (Optional[str]): The name of the student to retrieve.
+        test (int): A test parameter with no function.
+        
+    Returns:
+        Dict: A dictionary representing the student with the given name.
+        Dict: A dictionary containing the message "Not found" if the student is not found.
+    """
     for student_id in students:
         if students[student_id]["name"] == name:
             return students[student_id]
