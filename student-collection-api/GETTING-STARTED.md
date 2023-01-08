@@ -25,11 +25,11 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-The app should now be running at <a href="http://localhost:8000"></a>
+The app should now be running at "http://localhost:8000".
 
 
 ## **Accessing the API **
-To view and interact with the API, you can use the OpenAPI documentation page. To access this page, visit <a href="http://localhost:8000/docs"></a> in your web browser.
+To view and interact with the API, you can use the OpenAPI documentation page. To access this page, visit "http://localhost:8000/docs" in your web browser.
 
 On the documentation page, you will see a list of available endpoints and their parameters. You can use the "Try it out" buttons to send requests to the API and see the responses.
 
